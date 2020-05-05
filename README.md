@@ -12,3 +12,24 @@
                 
 3. Create a new feature with lazy loading  
 `ng g module feature1 --route feature1 --module app.module`
+
+4. Commit Changes  
+`git add .`
+`git commit -m "Add lazy feature modules"`
+`git push`
+
+5. Start Angular App  
+`ng serve`
+
+6. Stop Angular App  
+`Ctrl + C`
+
+7. Start Angular App with AOT
+`ng serve --aot`
+
+8. Stop Angular Module and remove versioning  
+  a. `Ctrl + C`  
+  b. `git remote rm origin`
+
+9. Check remotes
+`git remote -v`
