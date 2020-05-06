@@ -5,9 +5,10 @@
 
 2. Checkout, add and commit to new repository  
   a. `git init`  
-  b. `git commit -m "first commit"`  
-  c. `git remote add origin https://github.com/muhammedgaygisiz/dummy.git`  
-  d. `git push -u origin master`  
+  b. `git add .`
+  c. `git commit -m "first commit"`  
+  d. `git remote add origin https://github.com/muhammedgaygisiz/dummy.git`  
+  e. `git push -u origin master`  
                 
 3. Create a new feature with lazy loading  
 `ng g module feature1 --route feature1 --module app.module`
