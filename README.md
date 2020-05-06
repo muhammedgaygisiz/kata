@@ -33,3 +33,5 @@
 
 9. Check remotes
 `git remote -v`
+
+10. Delete Repository on Github via Webinterface
