@@ -18,20 +18,23 @@
 `git commit -m "Add lazy feature modules"`
 `git push`
 
-5. Start Angular App  
+5. Execute npm install
+`npm i`
+
+6. Start Angular App  
 `ng serve`
 
-6. Stop Angular App  
+7. Stop Angular App  
 `Ctrl + C`
 
-7. Start Angular App with AOT
+8. Start Angular App with AOT
 `ng serve --aot`
 
-8. Stop Angular Module and remove versioning  
+9. Stop Angular Module and remove versioning  
   a. `Ctrl + C`  
   b. `git remote rm origin`
 
-9. Check remotes
+10. Check remotes
 `git remote -v`
 
-10. Delete Repository on Github via Webinterface
+11. Delete Repository on Github via Webinterface
