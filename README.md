@@ -1,6 +1,6 @@
 # Kata
 - Create new Angular Workspace  
-`ng new my-workspace --create-application=false`
+`ng new my-workspace --create-application=false --skipGit=true --skipInstall=true`
 
 - Create a library in the workspace  
   - `cd my-workspace`
