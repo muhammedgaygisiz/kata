@@ -1,4 +1,6 @@
 # Kata
+- Create new Angular Workspace  
+`ng new my-workspace --create-application=false`
 
 1. Create a new Angular App with Routing and without versioning and skip install: 
 `ng new --routing=true --skipGit=true --skipInstall=true`
