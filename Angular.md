@@ -4,7 +4,7 @@
 
 - Create a library in the workspace  
   - `cd my-workspace`
-  - `ng g library lib-name`
+  - `ng g library lib-name --skipInstall=true`
 
 # Create a new app
 1. Create a new Angular App with Routing and without versioning and skip install: 
