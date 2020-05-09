@@ -3,7 +3,7 @@
 - Initialize a local git repository  
 `git init`  
 
-- Create a new file for versioning
+- Create a new file for versioning  
 `touch new-file`
 
 - Add sources to stage
