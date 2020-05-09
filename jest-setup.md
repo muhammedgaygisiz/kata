@@ -11,7 +11,3 @@
   `npm i -D ts-jest @types/jest`
   
 - Change preset to 'ts-jest' and testEnvironment to node in jest.config.js
-
-- Create a test in folder __test__  
-`mkdir __test__`
-`touch my-func.spec.ts`
