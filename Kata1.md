@@ -35,7 +35,7 @@
 `:wq` -> `Enter`
 
 - Search for the string `sourceMap` in the directory with lines  
-`grep -nr "outDir" .`
+`grep -nr "sourceMap" .`
 
 - Open the file again with vi  
 
