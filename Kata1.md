@@ -76,6 +76,9 @@ export const hello = (word: string): string => `Hello ${world}`;
 - List all the files in the folder, then list it one line a file, and then with also the hidden files  
 `ls`, `ls -l`, `ls -al`
 
+- Let you show the content of the file `dist/index.js`
+`cat dist/index.js`
+
 - Rename the file `index.ts`to `index-backup.ts`  
 `mv index.ts index-backup.ts`
 
