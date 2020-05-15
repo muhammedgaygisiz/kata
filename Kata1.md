@@ -16,6 +16,9 @@
 - Initialize a TypeScript Project
 `tsc --init`
 
+- Search for the string `outDir` in the file `tsconfig.json`, then in the directory, then with the lines where it is found
+`grep "outDir" tsconfig.json`, `grep -r "outDir" .`, `grep -nr "outDir" .`
+
 - Open the tsconfig.json in vi
 `vi tsconfig.json`
 
@@ -67,9 +70,6 @@ export hello = (word: string): string => `Hello ${world}`;
 
 - Rename the file `index.ts`to `index-backup.ts`
 `mv index.ts index-backup.ts`
-
-- Search for the string `hello` in the file `index-backup.ts`, then in the directory, then with the lines where it is found
-`grep "hello" index-backup.ts`, `grep -r "hello" .`, `grep -nr "hello" .`
 
 - Remove the file `index-backup.ts` and go one directory up
 `rm index-backup.ts`, `cd ..`
