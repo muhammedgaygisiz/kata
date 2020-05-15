@@ -77,7 +77,13 @@ export const hello = (word: string): string => `Hello ${world}`;
 `ls`, `ls -l`, `ls -al`
 
 - Let you show the content of the file `dist/index.js`
-`cat dist/index.js`
+`less dist/index.js`
+
+- Navigate to the next page in the content
+Arrow right button
+
+- Exit the presentation mode
+q
 
 - Rename the file `index.ts`to `index-backup.ts`  
 `mv index.ts index-backup.ts`
