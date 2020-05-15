@@ -67,7 +67,7 @@
 ```typescript
 const world = 'World';
 
-export hello = (word: string): string => `Hello ${world}`;
+export const hello = (word: string): string => `Hello ${world}`;
 ```
 
 - Compile the TypeScript file  
