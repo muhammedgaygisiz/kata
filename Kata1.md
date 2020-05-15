@@ -92,4 +92,4 @@ q
 `rm index-backup.ts`, `cd ..`
 
 - Remove the directory `kata-1`  
-`rmdir kata-1`
+`rm -rf kata-1` (recursively and force)
