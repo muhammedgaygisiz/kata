@@ -4,9 +4,11 @@
 # Create the new Angular Workspace my-work  
 `ng new my-work --create-application=false --skipInstall=true`
 
+# Change into the workspace my-work
+`cd my-workspace`
+  
 # Create a library in the workspace  
-  - `cd my-workspace`
-  - `ng g library lib-name --skipInstall=true`
+`ng g library lib-name --skipInstall=true`
 
 # Create a new app
 1. Create a new Angular App with Routing and without versioning and skip install: 
