@@ -13,6 +13,8 @@
 # Create the application `my-app` in the workspace
 `ng generate application my-app --routing=true --style=scss --skipInstall=true`
                 
+# Change default project to my-app in angular.json
+
 # Create the new feature my-feat with lazy loading  
 `ng g module my-feat --route feature1 --module app.module`
 
