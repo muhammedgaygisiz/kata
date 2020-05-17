@@ -10,7 +10,7 @@
 # Create the library `my-lib` in the workspace  
 `ng generate library my-lib --skipInstall=true`
 
-# Create the application my-app in the workspace
+# Create the application `my-app` in the workspace
 `ng generate application my-app --routing=true --style=scss --skipInstall=true`
                 
 # Create the new feature my-feat with lazy loading  
