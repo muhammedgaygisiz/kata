@@ -2,7 +2,7 @@
 `cd DEV/kata`
 
 # Create the new Angular Workspace my-work  
-`ng new my-work --create-application=false --skipGit=true --skipInstall=true`
+`ng new my-work --create-application=false --skipInstall=true`
 
 # Create a library in the workspace  
   - `cd my-workspace`
@@ -10,7 +10,7 @@
 
 # Create a new app
 1. Create a new Angular App with Routing and without versioning and skip install: 
-`ng new --routing=true --skipGit=true --skipInstall=true`
+`ng new --routing=true --skipInstall=true`
                 
 # Create the new feature my-feat with lazy loading  
 `ng g module my-feat --route feature1 --module app.module`
