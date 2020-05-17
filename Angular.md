@@ -31,11 +31,11 @@
 # Execute npm install
 `npm i`
 
-# Start Angular App with JIT
+# Start my-app with JIT
 `ng serve`
 
 # Stop Angular App  
 `Ctrl + C`
 
-# Start Angular App with AOT
+# Start my-app2 with AOT
 `ng serve --aot`
