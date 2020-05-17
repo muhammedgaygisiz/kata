@@ -19,6 +19,9 @@
 # Create the component `my-comp` in my-feat1 module
 `ng g c my-feat/my-comp`
 
+# Create a second app `my-app2` in the workspace
+`ng generate application my-app2 --routing=true --style=scss --skipInstall=true`
+
 # Create a second application `my-feat2` with lazy loading in my-app2
 `ng generate module my-feat2 --routing feature2 --project my-app2 --module app.module`
 
