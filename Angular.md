@@ -1,8 +1,8 @@
 # Go to DEV/kata folder
 `cd DEV/kata`
 
-# Create a new Angular Workspace  
-`ng new my-workspace --create-application=false --skipGit=true --skipInstall=true`
+# Create the new Angular Workspace my-work  
+`ng new my-work --create-application=false --skipGit=true --skipInstall=true`
 
 # Create a library in the workspace  
   - `cd my-workspace`
