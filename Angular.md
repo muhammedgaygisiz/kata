@@ -8,11 +8,10 @@
 `cd my-workspace`
   
 # Create the library `my-lib` in the workspace  
-`ng g library my-lib --skipInstall=true`
+`ng generate library my-lib --skipInstall=true`
 
-# Create a new app
-1. Create a new Angular App with Routing and without versioning and skip install: 
-`ng new --routing=true --skipInstall=true`
+# Create the application my-app in the workspace
+`ng generate application my-app --routing=true --skipInstall=true`
                 
 # Create the new feature my-feat with lazy loading  
 `ng g module my-feat --route feature1 --module app.module`
