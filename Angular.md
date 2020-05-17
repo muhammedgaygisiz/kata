@@ -25,7 +25,7 @@
 # Create a second application `my-feat2` with lazy loading in my-app2
 `ng generate module my-feat2 --routing feature2 --project my-app2 --module app.module`
 
-# Create a component `my-comp2`in my-feat2 with lazy loading in my-feat2
+# Create a component `my-comp2`in my-feat2 module
 `ng generate component my-feat2/my-comp2`
 
 # Execute npm install
