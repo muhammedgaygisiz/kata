@@ -16,8 +16,8 @@
 # Initialize a TypeScript Project  
 `tsc --init`
 
-# Search for the string `outDir` in the file `tsconfig.json`, then in the directory  
-`grep "outDir" tsconfig.json`, `grep -r "outDir" .`
+# Search for the string `outDir` in the file `tsconfig.json`  
+`grep -nr "outDir" tsconfig.json`
 
 # Open the tsconfig.json in vi  
 `vi tsconfig.json`
