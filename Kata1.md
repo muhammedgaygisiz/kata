@@ -1,7 +1,7 @@
 # Change to the directory for your training  
 `cd /DEV/kata/`
 
-# Create directory  
+# Create directory `kata-1`  
 `mkdir kata-1`
 
 # Change into the directory  
