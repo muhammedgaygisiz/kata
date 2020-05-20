@@ -11,7 +11,7 @@
 `ng generate library my-lib --skipInstall`
 
 # Create the application `my-app` in the workspace
-`ng generate application my-app --routing=true --style=scss --skipInstall`
+`ng generate application my-app --routing --style=scss --skipInstall`
 
 # Create the new feature `my-feat1` with lazy loading in my-app 
 `ng g module my-app/my-feat1 --route feature1 --project my-app --module app.module`
@@ -20,7 +20,7 @@
 `ng g c my-comp --project my-app --module my-feat1`
 
 # Create a second app `my-app2` in the workspace
-`ng generate application my-app2 --routing=true --style=scss --skipInstall`
+`ng generate application my-app2 --routing --style=scss --skipInstall`
 
 # Create a second application `my-feat2` with lazy loading in my-app2
 `ng generate module my-feat2 --routing feature2 --project my-app2 --module app.module`
