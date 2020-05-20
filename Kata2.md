@@ -26,7 +26,7 @@
 `ng generate module my-feat2 --routing feature2 --project my-app2 --module app.module`
 
 # Create a component `my-comp2`in my-feat2 module
-`ng generate component my-comp2` --project
+`ng generate component my-comp2` --project my-app2 --module my-feat2
 
 # Execute npm install
 `npm i`
