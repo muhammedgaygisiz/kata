@@ -17,7 +17,7 @@
 `ng g module my-app/my-feat1 --route feature1 --project my-app --module app.module`
 
 # Create the component `my-comp` in my-feat1 module
-`ng g c my-feat/my-comp`
+`ng g c my-comp --project my-app --module my-feat1`
 
 # Create a second app `my-app2` in the workspace
 `ng generate application my-app2 --routing=true --style=scss --skipInstall`
@@ -26,7 +26,7 @@
 `ng generate module my-feat2 --routing feature2 --project my-app2 --module app.module`
 
 # Create a component `my-comp2`in my-feat2 module
-`ng generate component my-feat2/my-comp2`
+`ng generate component my-comp2` --project
 
 # Execute npm install
 `npm i`
