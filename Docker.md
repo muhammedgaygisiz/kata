@@ -10,15 +10,20 @@
 
 `docker images -a`
 
-# Run container from image
+# Run container from image in background
 
 `
 docker run 
     --name mysql-container 
     -e MYSQL_ALLOW_EMPTY_PASSWORD=yes
     -p 3306:3306
+    -d
     mysql
 `
+
+# Show running docker containers
+
+`docker ps`
 
 # Bash into container
 
