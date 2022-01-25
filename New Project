@@ -1,0 +1,15 @@
+- Create nx workspace with Angular preset
+
+`npx create-nx-workspace --preset=angular`
+
+Define workspace and app name
+
+- Create a new repository on Github via `github.com`
+
+- Change directory to workspace
+
+- Add repository 
+`git remote add origin https://github.com/muhammedgaygisiz/<repository>.git`
+(Access via personal token is required)
+
+- Push local changes
